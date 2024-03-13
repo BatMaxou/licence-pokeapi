@@ -1,0 +1,62 @@
+@import '../../styles/variables.scss';
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 40px;
+
+    .title {
+        text-align: center;
+        width: 100%;
+    }
+
+    .image {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 50%;
+        }
+    }
+
+    .details {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-block: 30px;
+
+        .baseExp {
+            width: 45%;
+            display: flex;
+            gap: 20px;
+        }
+
+        .statList {
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            li {
+                width: 45%;
+
+                .baseStat {
+                    display: flex;
+                    gap: 20px;
+                }
+            }
+        }
+    }
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    height: 40px;
+}

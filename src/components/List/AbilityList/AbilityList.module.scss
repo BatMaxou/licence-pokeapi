@@ -1,0 +1,32 @@
+@import '../../../styles/variables.scss';
+
+.abilities {
+    width: 45%;
+    display: flex;
+    gap: 40px;
+
+    .ablitiyList {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+
+        li {
+            width: auto;
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: -20px;
+                transform: translateY(-50%);
+                width: 7px;
+                height: 7px;
+                border: 1px solid $primary-color;
+                border-radius: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+@import '../../../styles/variables.scss';
+
+.types {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .typeList {
+        width: auto;
+        display: flex;
+        gap: 10px;
+
+        li {
+            width: auto;
+        }
+    }
+}
